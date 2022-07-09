@@ -36,8 +36,20 @@ public class Tools
         catch
         {
             return 0;
-        }
-        
+        }    
     }
-    
+
+    public static int StringToInt32(string value)
+    {
+        try
+        {
+            if (String.IsNullOrEmpty(value)) return 0;
+            return Convert.ToInt32(value);
+            
+        }
+        catch
+        {
+            return 0;
+        }    
+    }
 }

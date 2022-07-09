@@ -1,6 +1,7 @@
 ﻿namespace Life.Business;
 using Life.Base;
 
+
 public class PayableParts
 {
     //public PayableParts() { }

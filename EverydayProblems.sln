@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Console", "Life.Console\Life.Console.csproj", "{D56503F8-E3EF-4E4B-B01E-6AF65F0C1632}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Base", "Life.Base\Life.Base.csproj", "{91185646-8FE3-4F24-8162-3D96AC566913}"
@@ -11,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Web", "Life.Web\Life.Web.csproj", "{7F7EBB57-2E51-48F1-81B5-069DF5535652}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.React", "Life.React\Life.React.csproj", "{DE15846F-C599-4CFA-9CB7-B5E2FAC27623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Integration", "Life.Integration\Life.Integration.csproj", "{6757D790-0553-4574-985C-346CCAF2092C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +45,9 @@ Global
 		{DE15846F-C599-4CFA-9CB7-B5E2FAC27623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE15846F-C599-4CFA-9CB7-B5E2FAC27623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE15846F-C599-4CFA-9CB7-B5E2FAC27623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6757D790-0553-4574-985C-346CCAF2092C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6757D790-0553-4574-985C-346CCAF2092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6757D790-0553-4574-985C-346CCAF2092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6757D790-0553-4574-985C-346CCAF2092C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
