@@ -1,7 +1,9 @@
-﻿using Life.Business;
+﻿
+using Life.Menu;
+
 try
 {
-    PayableParts.CalculateFees();
+    Menu.PrintMenu();
 }
 catch (Exception ex)
 {
