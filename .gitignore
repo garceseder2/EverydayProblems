@@ -296,5 +296,5 @@ psd
 thumb
 sketch
 
-#appsettings.*
+appsettings.*
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,react
