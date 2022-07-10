@@ -1,6 +1,7 @@
 namespace Life.Menu;
 using Life.Base;
 using Life.Business;
+using Life.Integration;
 
 public class Menu
 {
@@ -10,7 +11,7 @@ public class Menu
         Console.WriteLine("1 Calculo de cuotas");
         Console.WriteLine("2 Optener Correos");
 
-        int value = Tools.StringToInt32(Console.ReadLine() ?? "0");
+        int value = 2;//Tools.StringToInt32(Console.ReadLine() ?? "0");
 
         switch(value) 
         {
@@ -19,16 +20,13 @@ public class Menu
              PayableParts.CalculateFees();
             
            break;
-         case 0:
-           // code block
+         case 2:
+             Mail.GetEmails();
           break;
         default:
           // code block
           break;
         }
-
-
-
 
     }
 }

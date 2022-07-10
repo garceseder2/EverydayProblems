@@ -40,12 +40,8 @@ public class Mail
             }
         }
         catch (System.Exception)
-        {
-            
+        {   
             throw;
         }
-        
-
-
     }
 }

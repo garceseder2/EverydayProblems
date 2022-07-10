@@ -11,6 +11,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Life.Base\Life.Base.csproj" />
       <ProjectReference Include="..\Life.Business\Life.Business.csproj" />
+      <ProjectReference Include="..\Life.Integration\Life.Integration.csproj" />
     </ItemGroup>
 
 </Project>
