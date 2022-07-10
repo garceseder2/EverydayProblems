@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.React", "Life.React\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Integration", "Life.Integration\Life.Integration.csproj", "{6757D790-0553-4574-985C-346CCAF2092C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Life.Models", "Life.Models\Life.Models.csproj", "{8B794167-AA79-45C7-B9AD-24CDAD7C21B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +51,9 @@ Global
 		{6757D790-0553-4574-985C-346CCAF2092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6757D790-0553-4574-985C-346CCAF2092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6757D790-0553-4574-985C-346CCAF2092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B794167-AA79-45C7-B9AD-24CDAD7C21B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B794167-AA79-45C7-B9AD-24CDAD7C21B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B794167-AA79-45C7-B9AD-24CDAD7C21B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B794167-AA79-45C7-B9AD-24CDAD7C21B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

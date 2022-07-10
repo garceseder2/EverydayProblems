@@ -1,7 +1,9 @@
-﻿namespace Life.Integration;
+﻿using System.Reflection;
+namespace Life.Integration;
 
 using GemBox.Email;
 using GemBox.Email.Pop;
+using Life.Models;
 ///
 public class Mail
 {
@@ -33,9 +35,10 @@ public class Mail
 
             // Display message body.
             Console.WriteLine("Body:");
-            string body = string.IsNullOrEmpty(message.BodyHtml) ?
-                message.BodyText :
-                message.BodyHtml;
+            
+            string bodyHtml = String.IsNullOrEmpty(message.BodyHtml) ? "": message.BodyHtml;
+            string bodyText = String.IsNullOrEmpty(message.BodyText) ? "": message.BodyText;
+            string body = String.IsNullOrEmpty(bodyHtml) ? bodyText : bodyHtml;
             Console.WriteLine(body);
             }
         }
